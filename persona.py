@@ -12,4 +12,6 @@ class Persona:
         self.profesion=una_profesion
         print ("Hola me llamo", self.nombre, "tengo", self.edad, "años", "y mi profesion es", self.profesion)
 
+
+
 Var= Persona("Hèrika", 16, "estudiante")
