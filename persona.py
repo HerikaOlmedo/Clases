@@ -15,3 +15,16 @@ class Persona:
 
 
 Var= Persona("Hèrika", 16, "estudiante")
+
+#Agregar un metodo a la clase persona, que se llame cumpleanhos y que aumente la edad de la persona en un anho y retorne 
+# #la edad actual
+
+class persona:
+    def __init__ (self, edad=16):
+        self.edad=edad
+
+
+    def cumpleanhos(self):
+        self.edad= self.edad+1
+        return self.edad
+fulanito=persona(20)
